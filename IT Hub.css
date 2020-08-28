@@ -1,0 +1,244 @@
+.bg{background-image: url(img/7.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 700px;
+}
+nav{
+    background-color: lightgray;
+    width: 80%;
+    margin: auto;
+}
+
+nav li{
+float: right;
+margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+a{font-size: 20px;
+margin: 10px;
+color: black;
+    padding: 5px;
+    border-radius: 6px;
+}
+a:hover{
+    background-color: white;
+}
+a:active{color: red;
+}
+.p{font-size: 80px;
+color: white;
+margin:150px 0px 0px 80px;
+}
+.flex-container{
+    -webkit-flex;
+    display: flex;
+    width: 80%;
+    height: 650px;
+    margin: auto;
+}
+.flex-item{
+    
+   justify-content: space-around;
+    font-size: 20px;
+    margin: auto
+}
+h2{font-size: 30px
+}
+.p2{text-align: center;
+color: red;
+font-size: 20px
+}
+.p3{text-align: center;
+color: black;
+font-size: 60px
+}
+.p4{text-align: center;
+color: black;
+font-size: 15px
+}
+.flex-container1{
+    -webkit-flex;
+    display: flex;
+    width: 90%;
+    height: 400px;
+   margin: auto
+}
+.flex-item1{
+   
+   justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 30%
+}
+h3{font-size: 25px;
+color: gray;
+    text-decoration-line:underline
+}
+.flex-container2{
+    -webkit-flex;
+    display: flex;
+    width: 90%;
+    height: 400px;
+   margin: auto
+}
+.flex-item2{
+   
+   justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 30%
+}
+.flex-container3{
+    -webkit-flex;
+    display: flex;
+    width: 90%;
+    height: 400px;
+   margin: auto
+}
+.flex-item3{
+   
+   justify-content:center;
+    font-size: 20px;
+    margin: auto;
+    width: 30%
+}
+.pic{
+    width: 50px;
+    height:50px;
+   margin:0px 0px 0px 80px;
+    transform: translateY(50px) rotateZ(-50px);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1) ease-out;
+    
+}
+.divv{background-color:lightgrey;
+width: 100%;
+height: 500px;
+    border-radius:40px
+}
+.divv2{
+    float: right;
+    
+}
+.divv3{
+    padding: 200px 0px 0px 50px;
+}
+.para{font-size: 40px
+}
+.para1{font-size: 20px
+}
+.pic2{
+    border-top-right-radius: 500px;
+      transform: translateY(50px) rotateZ(-50px);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1) ease-out;
+
+}
+.pic2 .is-visible{
+opacity: 0.1;
+transform: rotateZ(50px)
+}
+input{font-size: 15px;
+padding:5px;
+margin: 5px;
+}
+
+form{float: right;
+margin-right: 60px
+}
+.pic4{
+    border-radius: 400px 20px 20px 20px;
+    margin: 30px 0px 0px 30px
+}
+
+
+
+
+.flex-container11{
+    max-width: inherit;
+    display:-webkit-flex;
+    display; flex; 
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+   
+    
+    
+    
+}
+.flex-item11,.flex-item33,.flex-item44{
+    background: white;
+    color:black;
+    width: 30%;
+    height: 300px;
+    font-size: 20px;
+    margin:auto;
+    padding:30px;
+    
+}
+
+.flex-item11{
+    animation:rotate 1s ease-in-out forwards;
+    animation-direction: alternate-reverse;
+}
+.flex-item33{
+    
+    animation:rotate1 1s ease-in-out forwards;
+    animation-direction: alternate;
+}
+.flex-item33{
+    animation:rotate 1s ease-in-out forwards;
+    animation-direction:reverse;
+    
+}
+.flex-item44{
+    animation:rotate1 1s ease-in-out forwards;   
+}
+
+
+@keyframes rotate{
+    form{transform: rotateX(0deg) translateX(0px)}
+    to{transform:rotateX(30deg) translatex(30px)}
+    
+}
+@keyframes rotate1{
+    form{transform: rotateX(0deg) translateX(0px)}
+    to{transform:rotateX(30deg) }
+    
+}
+.div5{
+
+    width:100%;
+    height:100px;
+    
+}
+
+
+.img2{
+    top:45px;
+    width:100px;
+    border-radius: 20px;
+    animation-name: drive2;
+     animation-duration: 12s;
+    animation-fill-mode: both;
+  
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes drive2{
+    from{transform: translateX(-20px)}
+    to{transform: translateX(1330px)}
+}
+/*
+.bg2{
+    height:150px;
+    background-image: url(../compition/img/3.jpg);
+    background-size="cover";
+    margin-top: -200px;
+}
+*/
+
